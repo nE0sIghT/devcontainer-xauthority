@@ -1,0 +1,14 @@
+---
+services:
+  devcontainer-xauthority:
+    build:
+      context: ../
+      dockerfile: .devcontainer/Dockerfile
+    container_name: devcontainer-xauthority
+    volumes:
+      - "../:/workspace:cached"
+    networks:
+      - devcontainer-xauthority
+
+networks:
+  devcontainer-xauthority:

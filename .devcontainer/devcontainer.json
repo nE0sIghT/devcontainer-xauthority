@@ -1,0 +1,10 @@
+{
+    "name": "devcontainer-xauthority",
+
+    "dockerComposeFile": [
+        "docker-compose.yml"
+    ],
+    "service": "devcontainer-xauthority",
+    "workspaceFolder": "/workspace/",
+    "remoteUser": "vscode"
+}
